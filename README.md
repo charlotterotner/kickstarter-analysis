@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-The purpose of this analysis was to provide Louise with recommendations for her kickstarter campaign based off historical kickstarter data. We want to ensure her project will be set up for success based off her budget, type of kickstarter, and other criteria. We know that Louise’s campaign is going to be a play so we focused most of our analysis on plays. 
+The purpose of this analysis was to provide Louise with recommendations for her kickstarter campaign based off historical kickstarter data. We want to ensure her project will be set up for success based off her budget, type of kickstarter, and other criteria. We know that Louise’s campaign is going to be a play so I focused most of my analysis on plays. 
 
 ## Analysis and Challenges
 
