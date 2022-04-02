@@ -11,7 +11,7 @@ The purpose of this analysis was to provide Louise with recommendations for her 
 For theater outcomes based on launch date I started by converting our Unix time stamps to a readable format so we could easily read the start and end date of each campaign.  To do this I used the formula `=(((J2/60)/60)/24)+DATE(1970,1,1)`.
 Once I had the date in a readable format I created a pivot table and then a line graph so I could easily see the outcome amounts for theater kickstarters over the different months of the year. Below is the graph I created. 
 
-![image description or alt text](https://raw.githubusercontent.com/charlotterotner/kickstarter-analysis/main/Theater_Outcomes_vs_Launch.png)
+![image description or alt text](https://raw.githubusercontent.com/charlotterotner/kickstarter-analysis/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 To conduct the anlaysis of outcomes based on goals I first created the goal ranges. To then find the amount of successes, failures, and cancels for each range I used a COUNTIF function. I note this below in my challenges, but to make things a bit easier and less prone to error I split up the ranges into two different columns and then used varitaions of the following formula: 
@@ -19,7 +19,7 @@ To conduct the anlaysis of outcomes based on goals I first created the goal rang
 
 Once I had the count for each category for each range I calculated the total projects using the SUM function and then found percentage successful and percentage failed by simply dividing the amounts in each category by the total I found using the SUM function. 
 
-Below is the graph I created: ![image description or alt text](https://raw.githubusercontent.com/charlotterotner/kickstarter-analysis/main/Outcomes_vs_Goals.png) 
+Below is the graph I created: ![image description or alt text](https://raw.githubusercontent.com/charlotterotner/kickstarter-analysis/main/Resources/Outcomes_vs_Goals.png) 
 
 ### Challenges and Difficulties Encountered
 I came across a bit of a challenge while creating the last graph. Inputting the ranges and using the recommended formula meant hardcoding the goal amounts into the formula. The first go around I made an error and added one too many zeros in a couple places causing my graph to look off. To correct this and make this a bit easier on myself a colleague recommended splitting the ranges into two columns so hard coding was not necessary and I could copy and paste the formulas more easily. 
